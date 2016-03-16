@@ -1,0 +1,637 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3A0869C11BDF2498007327C5 /* ExchangeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A0869C01BDF2498007327C5 /* ExchangeViewController.m */; };
+		3A1330541B5F8ECC0084605B /* GlobalHelp.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A1330531B5F8ECC0084605B /* GlobalHelp.m */; };
+		3A1CFBBC1B94069700C6253A /* MTBBarcodeScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A1CFBBB1B94069700C6253A /* MTBBarcodeScanner.m */; };
+		3A30CB821B62269900C6F0F4 /* UndeliveredViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A30CB811B62269900C6F0F4 /* UndeliveredViewController.m */; };
+		3A5CAD201B95466A00CD486C /* BarcodeScanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A5CAD1F1B95466A00CD486C /* BarcodeScanViewController.m */; };
+		3A74B61E1B44D18400034554 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A74B61D1B44D18400034554 /* LoginViewController.m */; };
+		3A74B6221B44E0F000034554 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A74B6211B44E0F000034554 /* User.m */; };
+		3A74B6251B45175800034554 /* DashboardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A74B6241B45175800034554 /* DashboardViewController.m */; };
+		3A74B6281B4523C600034554 /* Order.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A74B6271B4523C600034554 /* Order.m */; };
+		3A74B62A1B4542E000034554 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A74B6291B4542E000034554 /* CoreLocation.framework */; };
+		3AC93FCF1B626F560087BFC2 /* InHandViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AC93FCE1B626F560087BFC2 /* InHandViewController.m */; };
+		3ACF9EB31B620F9400A2D986 /* StatusUpdateResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ACF9EB21B620F9400A2D986 /* StatusUpdateResponse.m */; };
+		3AD10E8C1B43F0EB0083B44F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AD10E8B1B43F0EB0083B44F /* main.m */; };
+		3AD10E8F1B43F0EB0083B44F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AD10E8E1B43F0EB0083B44F /* AppDelegate.m */; };
+		3AD10E921B43F0EB0083B44F /* VTracking_iPhone.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3AD10E901B43F0EB0083B44F /* VTracking_iPhone.xcdatamodeld */; };
+		3AD10E951B43F0EB0083B44F /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AD10E941B43F0EB0083B44F /* MasterViewController.m */; };
+		3AD10E981B43F0EB0083B44F /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AD10E971B43F0EB0083B44F /* DetailViewController.m */; };
+		3AD10E9B1B43F0EB0083B44F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AD10E991B43F0EB0083B44F /* Main.storyboard */; };
+		3AD10E9D1B43F0EB0083B44F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AD10E9C1B43F0EB0083B44F /* Images.xcassets */; };
+		3AD10EA01B43F0EB0083B44F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3AD10E9E1B43F0EB0083B44F /* LaunchScreen.xib */; };
+		3AD10EAC1B43F0EB0083B44F /* VTracking_iPhoneTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AD10EAB1B43F0EB0083B44F /* VTracking_iPhoneTests.m */; };
+		F7CE9B475923E148071366D5 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D3DE2E3B8192076243F2FAF /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3AD10EA61B43F0EB0083B44F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3AD10E7E1B43F0EB0083B44F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3AD10E851B43F0EB0083B44F;
+			remoteInfo = "VTracking-iPhone";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3A0869BF1BDF2498007327C5 /* ExchangeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExchangeViewController.h; sourceTree = "<group>"; };
+		3A0869C01BDF2498007327C5 /* ExchangeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExchangeViewController.m; sourceTree = "<group>"; };
+		3A1330521B5F8ECC0084605B /* GlobalHelp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlobalHelp.h; sourceTree = "<group>"; };
+		3A1330531B5F8ECC0084605B /* GlobalHelp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GlobalHelp.m; sourceTree = "<group>"; };
+		3A1CFBBA1B94069700C6253A /* MTBBarcodeScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTBBarcodeScanner.h; sourceTree = "<group>"; };
+		3A1CFBBB1B94069700C6253A /* MTBBarcodeScanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTBBarcodeScanner.m; sourceTree = "<group>"; };
+		3A30CB801B62269900C6F0F4 /* UndeliveredViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UndeliveredViewController.h; sourceTree = "<group>"; };
+		3A30CB811B62269900C6F0F4 /* UndeliveredViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UndeliveredViewController.m; sourceTree = "<group>"; };
+		3A5CAD1E1B95466A00CD486C /* BarcodeScanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BarcodeScanViewController.h; sourceTree = "<group>"; };
+		3A5CAD1F1B95466A00CD486C /* BarcodeScanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BarcodeScanViewController.m; sourceTree = "<group>"; };
+		3A74B61C1B44D18400034554 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		3A74B61D1B44D18400034554 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		3A74B6201B44E0F000034554 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = User.h; path = Model/User.h; sourceTree = "<group>"; };
+		3A74B6211B44E0F000034554 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = User.m; path = Model/User.m; sourceTree = "<group>"; };
+		3A74B6231B45175800034554 /* DashboardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DashboardViewController.h; sourceTree = "<group>"; };
+		3A74B6241B45175800034554 /* DashboardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DashboardViewController.m; sourceTree = "<group>"; };
+		3A74B6261B4523C600034554 /* Order.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Order.h; path = Model/Order.h; sourceTree = "<group>"; };
+		3A74B6271B4523C600034554 /* Order.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Order.m; path = Model/Order.m; sourceTree = "<group>"; };
+		3A74B6291B4542E000034554 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		3AC93FCD1B626F560087BFC2 /* InHandViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InHandViewController.h; sourceTree = "<group>"; };
+		3AC93FCE1B626F560087BFC2 /* InHandViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InHandViewController.m; sourceTree = "<group>"; };
+		3ACF9EB11B620F9400A2D986 /* StatusUpdateResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StatusUpdateResponse.h; path = Model/StatusUpdateResponse.h; sourceTree = "<group>"; };
+		3ACF9EB21B620F9400A2D986 /* StatusUpdateResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StatusUpdateResponse.m; path = Model/StatusUpdateResponse.m; sourceTree = "<group>"; };
+		3AD10E861B43F0EB0083B44F /* VTracking-iPhone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "VTracking-iPhone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AD10E8A1B43F0EB0083B44F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3AD10E8B1B43F0EB0083B44F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3AD10E8D1B43F0EB0083B44F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3AD10E8E1B43F0EB0083B44F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3AD10E911B43F0EB0083B44F /* VTracking_iPhone.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = VTracking_iPhone.xcdatamodel; sourceTree = "<group>"; };
+		3AD10E931B43F0EB0083B44F /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		3AD10E941B43F0EB0083B44F /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		3AD10E961B43F0EB0083B44F /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		3AD10E971B43F0EB0083B44F /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		3AD10E9A1B43F0EB0083B44F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3AD10E9C1B43F0EB0083B44F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3AD10E9F1B43F0EB0083B44F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		3AD10EA51B43F0EB0083B44F /* VTracking-iPhoneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "VTracking-iPhoneTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AD10EAA1B43F0EB0083B44F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3AD10EAB1B43F0EB0083B44F /* VTracking_iPhoneTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VTracking_iPhoneTests.m; sourceTree = "<group>"; };
+		6D3DE2E3B8192076243F2FAF /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		763B5F4666A819377AEE224F /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		F1C9FECF4B87B88E68DA701C /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3AD10E831B43F0EB0083B44F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A74B62A1B4542E000034554 /* CoreLocation.framework in Frameworks */,
+				F7CE9B475923E148071366D5 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AD10EA21B43F0EB0083B44F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3A1330511B5F8EA10084605B /* Help */ = {
+			isa = PBXGroup;
+			children = (
+				3A1330521B5F8ECC0084605B /* GlobalHelp.h */,
+				3A1330531B5F8ECC0084605B /* GlobalHelp.m */,
+			);
+			name = Help;
+			sourceTree = "<group>";
+		};
+		3A1CFBB81B94066500C6253A /* Plugins */ = {
+			isa = PBXGroup;
+			children = (
+				3A1CFBB91B94066F00C6253A /* MTBBarcodeScanner */,
+			);
+			name = Plugins;
+			sourceTree = "<group>";
+		};
+		3A1CFBB91B94066F00C6253A /* MTBBarcodeScanner */ = {
+			isa = PBXGroup;
+			children = (
+				3A1CFBBA1B94069700C6253A /* MTBBarcodeScanner.h */,
+				3A1CFBBB1B94069700C6253A /* MTBBarcodeScanner.m */,
+			);
+			name = MTBBarcodeScanner;
+			sourceTree = "<group>";
+		};
+		3A74B61F1B44E0AF00034554 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3A74B6201B44E0F000034554 /* User.h */,
+				3A74B6211B44E0F000034554 /* User.m */,
+				3A74B6261B4523C600034554 /* Order.h */,
+				3A74B6271B4523C600034554 /* Order.m */,
+				3ACF9EB11B620F9400A2D986 /* StatusUpdateResponse.h */,
+				3ACF9EB21B620F9400A2D986 /* StatusUpdateResponse.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		3ABCF2ED1B4A697800810E0B /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3A5CAD1E1B95466A00CD486C /* BarcodeScanViewController.h */,
+				3A5CAD1F1B95466A00CD486C /* BarcodeScanViewController.m */,
+				3A74B61C1B44D18400034554 /* LoginViewController.h */,
+				3A74B61D1B44D18400034554 /* LoginViewController.m */,
+				3A74B6231B45175800034554 /* DashboardViewController.h */,
+				3A74B6241B45175800034554 /* DashboardViewController.m */,
+				3AD10E931B43F0EB0083B44F /* MasterViewController.h */,
+				3AD10E941B43F0EB0083B44F /* MasterViewController.m */,
+				3AD10E961B43F0EB0083B44F /* DetailViewController.h */,
+				3AD10E971B43F0EB0083B44F /* DetailViewController.m */,
+				3A30CB801B62269900C6F0F4 /* UndeliveredViewController.h */,
+				3A30CB811B62269900C6F0F4 /* UndeliveredViewController.m */,
+				3AC93FCD1B626F560087BFC2 /* InHandViewController.h */,
+				3AC93FCE1B626F560087BFC2 /* InHandViewController.m */,
+				3A0869BF1BDF2498007327C5 /* ExchangeViewController.h */,
+				3A0869C01BDF2498007327C5 /* ExchangeViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		3AD10E7D1B43F0EB0083B44F = {
+			isa = PBXGroup;
+			children = (
+				3AD10E881B43F0EB0083B44F /* VTracking-iPhone */,
+				3AD10EA81B43F0EB0083B44F /* VTracking-iPhoneTests */,
+				3AD10E871B43F0EB0083B44F /* Products */,
+				F3DF404C0BBA9D0274F5BD4D /* Pods */,
+				7D5D29432892BF160519FF32 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3AD10E871B43F0EB0083B44F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3AD10E861B43F0EB0083B44F /* VTracking-iPhone.app */,
+				3AD10EA51B43F0EB0083B44F /* VTracking-iPhoneTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3AD10E881B43F0EB0083B44F /* VTracking-iPhone */ = {
+			isa = PBXGroup;
+			children = (
+				3A1CFBB81B94066500C6253A /* Plugins */,
+				3A1330511B5F8EA10084605B /* Help */,
+				3ABCF2ED1B4A697800810E0B /* Controllers */,
+				3A74B61F1B44E0AF00034554 /* Models */,
+				3AD10E8D1B43F0EB0083B44F /* AppDelegate.h */,
+				3AD10E8E1B43F0EB0083B44F /* AppDelegate.m */,
+				3AD10E991B43F0EB0083B44F /* Main.storyboard */,
+				3AD10E9C1B43F0EB0083B44F /* Images.xcassets */,
+				3AD10E9E1B43F0EB0083B44F /* LaunchScreen.xib */,
+				3AD10E901B43F0EB0083B44F /* VTracking_iPhone.xcdatamodeld */,
+				3AD10E891B43F0EB0083B44F /* Supporting Files */,
+			);
+			path = "VTracking-iPhone";
+			sourceTree = "<group>";
+		};
+		3AD10E891B43F0EB0083B44F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3AD10E8A1B43F0EB0083B44F /* Info.plist */,
+				3AD10E8B1B43F0EB0083B44F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3AD10EA81B43F0EB0083B44F /* VTracking-iPhoneTests */ = {
+			isa = PBXGroup;
+			children = (
+				3AD10EAB1B43F0EB0083B44F /* VTracking_iPhoneTests.m */,
+				3AD10EA91B43F0EB0083B44F /* Supporting Files */,
+			);
+			path = "VTracking-iPhoneTests";
+			sourceTree = "<group>";
+		};
+		3AD10EA91B43F0EB0083B44F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3AD10EAA1B43F0EB0083B44F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7D5D29432892BF160519FF32 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3A74B6291B4542E000034554 /* CoreLocation.framework */,
+				6D3DE2E3B8192076243F2FAF /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F3DF404C0BBA9D0274F5BD4D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				763B5F4666A819377AEE224F /* Pods.debug.xcconfig */,
+				F1C9FECF4B87B88E68DA701C /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3AD10E851B43F0EB0083B44F /* VTracking-iPhone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3AD10EAF1B43F0EB0083B44F /* Build configuration list for PBXNativeTarget "VTracking-iPhone" */;
+			buildPhases = (
+				2B878BF7A87B4EF97A7694FA /* Check Pods Manifest.lock */,
+				3AD10E821B43F0EB0083B44F /* Sources */,
+				3AD10E831B43F0EB0083B44F /* Frameworks */,
+				3AD10E841B43F0EB0083B44F /* Resources */,
+				4EBB1AB9AE58519FA8E0369A /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "VTracking-iPhone";
+			productName = "VTracking-iPhone";
+			productReference = 3AD10E861B43F0EB0083B44F /* VTracking-iPhone.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3AD10EA41B43F0EB0083B44F /* VTracking-iPhoneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3AD10EB21B43F0EB0083B44F /* Build configuration list for PBXNativeTarget "VTracking-iPhoneTests" */;
+			buildPhases = (
+				3AD10EA11B43F0EB0083B44F /* Sources */,
+				3AD10EA21B43F0EB0083B44F /* Frameworks */,
+				3AD10EA31B43F0EB0083B44F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3AD10EA71B43F0EB0083B44F /* PBXTargetDependency */,
+			);
+			name = "VTracking-iPhoneTests";
+			productName = "VTracking-iPhoneTests";
+			productReference = 3AD10EA51B43F0EB0083B44F /* VTracking-iPhoneTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3AD10E7E1B43F0EB0083B44F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = WangYZ;
+				TargetAttributes = {
+					3AD10E851B43F0EB0083B44F = {
+						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = MMBMAW4UHY;
+					};
+					3AD10EA41B43F0EB0083B44F = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 3AD10E851B43F0EB0083B44F;
+					};
+				};
+			};
+			buildConfigurationList = 3AD10E811B43F0EB0083B44F /* Build configuration list for PBXProject "VTracking-iPhone" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3AD10E7D1B43F0EB0083B44F;
+			productRefGroup = 3AD10E871B43F0EB0083B44F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3AD10E851B43F0EB0083B44F /* VTracking-iPhone */,
+				3AD10EA41B43F0EB0083B44F /* VTracking-iPhoneTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3AD10E841B43F0EB0083B44F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AD10E9B1B43F0EB0083B44F /* Main.storyboard in Resources */,
+				3AD10EA01B43F0EB0083B44F /* LaunchScreen.xib in Resources */,
+				3AD10E9D1B43F0EB0083B44F /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AD10EA31B43F0EB0083B44F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2B878BF7A87B4EF97A7694FA /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4EBB1AB9AE58519FA8E0369A /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3AD10E821B43F0EB0083B44F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A30CB821B62269900C6F0F4 /* UndeliveredViewController.m in Sources */,
+				3AC93FCF1B626F560087BFC2 /* InHandViewController.m in Sources */,
+				3A74B6281B4523C600034554 /* Order.m in Sources */,
+				3A1CFBBC1B94069700C6253A /* MTBBarcodeScanner.m in Sources */,
+				3A5CAD201B95466A00CD486C /* BarcodeScanViewController.m in Sources */,
+				3A0869C11BDF2498007327C5 /* ExchangeViewController.m in Sources */,
+				3AD10E981B43F0EB0083B44F /* DetailViewController.m in Sources */,
+				3A74B6221B44E0F000034554 /* User.m in Sources */,
+				3AD10E951B43F0EB0083B44F /* MasterViewController.m in Sources */,
+				3A74B6251B45175800034554 /* DashboardViewController.m in Sources */,
+				3A1330541B5F8ECC0084605B /* GlobalHelp.m in Sources */,
+				3A74B61E1B44D18400034554 /* LoginViewController.m in Sources */,
+				3ACF9EB31B620F9400A2D986 /* StatusUpdateResponse.m in Sources */,
+				3AD10E8F1B43F0EB0083B44F /* AppDelegate.m in Sources */,
+				3AD10E921B43F0EB0083B44F /* VTracking_iPhone.xcdatamodeld in Sources */,
+				3AD10E8C1B43F0EB0083B44F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AD10EA11B43F0EB0083B44F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AD10EAC1B43F0EB0083B44F /* VTracking_iPhoneTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3AD10EA71B43F0EB0083B44F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3AD10E851B43F0EB0083B44F /* VTracking-iPhone */;
+			targetProxy = 3AD10EA61B43F0EB0083B44F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3AD10E991B43F0EB0083B44F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3AD10E9A1B43F0EB0083B44F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3AD10E9E1B43F0EB0083B44F /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3AD10E9F1B43F0EB0083B44F /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3AD10EAD1B43F0EB0083B44F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3AD10EAE1B43F0EB0083B44F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3AD10EB01B43F0EB0083B44F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 763B5F4666A819377AEE224F /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "VTracking-iPhone/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		3AD10EB11B43F0EB0083B44F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1C9FECF4B87B88E68DA701C /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=*]" = "iPhone Developer: Yuezhi Wang (N3N27A365N)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "VTracking-iPhone/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		3AD10EB31B43F0EB0083B44F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "VTracking-iPhoneTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VTracking-iPhone.app/VTracking-iPhone";
+			};
+			name = Debug;
+		};
+		3AD10EB41B43F0EB0083B44F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "VTracking-iPhoneTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VTracking-iPhone.app/VTracking-iPhone";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3AD10E811B43F0EB0083B44F /* Build configuration list for PBXProject "VTracking-iPhone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AD10EAD1B43F0EB0083B44F /* Debug */,
+				3AD10EAE1B43F0EB0083B44F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3AD10EAF1B43F0EB0083B44F /* Build configuration list for PBXNativeTarget "VTracking-iPhone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AD10EB01B43F0EB0083B44F /* Debug */,
+				3AD10EB11B43F0EB0083B44F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3AD10EB21B43F0EB0083B44F /* Build configuration list for PBXNativeTarget "VTracking-iPhoneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AD10EB31B43F0EB0083B44F /* Debug */,
+				3AD10EB41B43F0EB0083B44F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3AD10E901B43F0EB0083B44F /* VTracking_iPhone.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3AD10E911B43F0EB0083B44F /* VTracking_iPhone.xcdatamodel */,
+			);
+			currentVersion = 3AD10E911B43F0EB0083B44F /* VTracking_iPhone.xcdatamodel */;
+			path = VTracking_iPhone.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3AD10E7E1B43F0EB0083B44F /* Project object */;
+}
